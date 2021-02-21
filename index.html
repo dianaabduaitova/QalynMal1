@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Qalyn Mal Calculator</title>
+    <link rel="stylesheet" href="style1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Indie+Flower&display=swap" rel="stylesheet">
+    
+
+    <script type ="text/javascript" src="javascript1.js"></script>
+</head>
+<body>
+    <h1> Qalyn Mal: How much are you willing to pay for your bride?</h1>
+<div class= "sec">
+    <div class= "edu">
+        <div class="edu1"> 
+    <p>Bride's education</p>
+</div>
+    <select id = "education">
+        <option value=1>Choose one</option>
+        <option value=1.5>Undergraduate degree</option>
+        <option value=1.2>College degree</option>
+        <option value=1.05>High school degree</option>
+        <option value=0.9>Middle school degree</option>
+    </select>
+</div>
+<div class="worth"> 
+    <div class="worth1"> 
+    <p>Bride's family net worth</p>
+</div>
+    <select id = "capital">
+        <option value=1>Choose one</option>
+        <option value=2>More than 100,000$</option>
+        <option value=1.5>Between 50,000$ and 100,000$</option>
+        <option value=1.2>Less than 50,000$</option>
+    </select>
+</div>
+<div class="skils"> 
+   <div class= "skills1 ">
+        <p>Bride's skills</p>
+   </div>
+    <input class = "skills" type="checkbox" value=100>Playing on dombra
+    <input class = "skills" type="checkbox" value=200>Good cook
+    <input class = "skills" type="checkbox" value=150>Easygoing character
+    <input class = "skills" type="checkbox" value=100>Sings well
+</div>
+<div class="age">
+   <div class="age1">
+    <p>Bride's age</p>
+</div>
+    <input id = "age0" type="radio" name="age" value=1.5>Between 18 - 23
+    <input id = "age1" type="radio" name="age" value=1.2>Between 24 - 27
+    <input id = "age2" type="radio" name="age" value=0.95>28+
+</div>
+<div class="rep"> 
+  <div class="rep1">   <p>Bride's reputation</p>
+</div>
+    <input id = "repa0" type="checkbox" value=0.85>Gossips about her parent's attitude
+    <input id = "repa1" type="checkbox" value=0.9>Gossips about her character
+    <input id = "repa2" type="checkbox" value=200>General gossips around her person
+</div> 
+    <br>
+    <button onclick="check()">Сalculate her Qalyn Mal</button>
+    <h2 id = "Result">Her Qalyn Mal</h2>
+    <img src="" weidth=300 height=300>
+</div>
+</body>
+</html>

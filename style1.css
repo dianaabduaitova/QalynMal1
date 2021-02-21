@@ -1,0 +1,56 @@
+body {
+	background: linear-gradient(90deg, #ee5c87, #f1a4b5, #d587b3);
+}
+h1 {
+    background-color: antiquewhite;
+    color: blue;
+    text-align: center;
+    width: 1500;
+}.sec {
+    font-size: 20px;
+    font-family:'Indie Flower', cursive;;
+}
+.edu1 { 
+    font-family: 'Akaya Kanadaka', cursive;
+    font-size: 25px;
+    background-color: #f14177;
+    width: 175px;
+}
+.worth1 { 
+    font-family: 'Akaya Kanadaka', cursive;
+    font-size: 25px;
+    background-color: #f14177;
+    width: 250px;
+}
+
+.skills1 { 
+    font-family: 'Akaya Kanadaka', cursive;
+    font-size: 25px;
+    background-color: #f14177;
+    width: 150px;
+}
+.age1 { 
+    font-family: 'Akaya Kanadaka', cursive;
+    font-size: 25px;
+    background-color: #f14177;
+    width: 150px;
+} 
+.rep1 { 
+    font-family: 'Akaya Kanadaka', cursive;
+    font-size: 25px;
+    background-color: #f14177;
+    width: 190px;
+}
+
+button {
+    background-color:#f4dcff;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
